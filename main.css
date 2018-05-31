@@ -1,0 +1,47 @@
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+html { 
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+
+body { 
+  display: flex;
+  flex-direction: column;
+  margin: 0;
+}
+
+html,
+body {
+  height: 100%;
+}
+.header {
+	min-height: 82px;
+	background-color: blue;
+}
+.container {
+	padding-left: 16px;
+	padding-right: 16px;
+	max-width: 980px;
+	margin: 0 auto;
+	/*outline: 1px dashed tomato;*/
+	display: flex;
+	justify-content: space-between;
+} 
+.containerLeft {
+	width: calc(60% - 16px);
+}
+.containerRight {
+	width: 35%;
+}
+.containerLeft,
+.containerRight {
+	outline: 1px dashed tomato;
+}
+.main {
+	min-height: 587px;
+}
+.footer {
+	min-height: : 130px;
+}
