@@ -1,0 +1,68 @@
+CTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="refresh" content="2" />
+	<title>vezba-facebook</title>
+	<link rel="stylesheet" href="css/main.css">
+</head>
+<body>
+
+	<header class="header">
+  <div class="container">
+    <div class="containerLeftHeader">
+    	<img src="img/facebook-icon.png" alt="">
+    </div>
+    <div class="containerRightHeader">
+		<div class="containerRight1">
+			<p>Email or Phone</p>
+			<input type="text">
+		</div>
+		<div class="containerRight2">
+			<p>Password</p>
+			<input type="Password">
+			<a href="">Forgot account?</a>
+		</div>
+		<div class="containerRight3">
+			<button class="submit">Log in</button>
+		</div>
+    </div>
+  </div>
+</header>
+
+<main class="main">
+  <div class="container">
+    <div class="containerLeft">
+    	<h2>Connect with friends and the
+world around you on Facebook.</h2>
+    	<div class="containerMain">
+    		<p>See photos and updates from friends in News Feed.</p>
+    		<p>Share what's new in your life on your Timeline.</p>
+    		<p>Find more of what you're looking for with Facebook Search.</p>
+    	</div>
+    </div>
+    <div class="containerRight">
+		<h1>Sign Up</h1>
+		<h2>It’s free and always will be.</h2>
+		<input type="text" class="ime" placeholder="First name">
+		<input type="text" class="ime" placeholder="Last name">
+		<input type="text" class="inputi" placeholder="Mobile number or email">
+		<input type="Password" class="inputi" placeholder="New Password">
+		<h2>Birthday</h2>
+		<select name="" id=""></select>
+		<input type="radio" name="gender" value="male"> Female
+		<input type="radio" name="gender" value="female"> Male
+		<p>By clicking Sign Up, you agree to our <b>Terms</b>, <b>Data Policy</b> and <b>Cookies Policy</b>. You may receive SMS Notifications from us and can opt out any time.</p>
+		<button class="submit2">Sign up</button>
+		<p><a href="">Create a Page</a> for a celebrity, band or business.</p>
+
+    </div>
+  </div>
+</main>
+
+<footer class="footer">
+  <div class="container">footer</div>
+</footer>
+
+</body>
+</html>
